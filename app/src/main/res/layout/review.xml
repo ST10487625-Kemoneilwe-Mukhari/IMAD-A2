@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    >
+
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/reviewTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review Screen"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/question1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Q1: Nelson Mandela spent 27 years in prison" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/answer1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="A1: True" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/question2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Q2:Pretoria is the capital city of South Africa " />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/answer2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="A2: True" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/question3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Q3:The Freedom Charter was adopted in 1955" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/answer3Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="A3:False, adopted in Kliptown not Soweto" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/question4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:text="Q4:Chris Hani was assassinated by an ANC member" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/answer4Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="A4:False, assassinated by right-wing extremist" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/question5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Q5:Apartheid laws officially began in 1948" />
+
+    <!-- Textview with an ID -->
+    <TextView
+        android:id="@+id/answer5Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="A5:True" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Button with an ID -->
+        <Button
+            android:id="@+id/refreshBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"/>
+
+        <!-- Button with an ID -->
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
